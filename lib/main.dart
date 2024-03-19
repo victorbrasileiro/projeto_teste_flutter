@@ -71,7 +71,7 @@ class MyApp extends StatelessWidget {
           child: Column(
             children: [
               ImageSection(
-                  image: 'images/cristo-redentor.jpg',
+                  image: 'assets/images/cristo.jpg',
               ),
               TitleSection(
                   name: 'Cristo Redentor',
@@ -146,7 +146,7 @@ class ButtonWithText extends StatelessWidget {
           child: Text(
             label,
             style: TextStyle(
-              fontSize: 12,
+              fontSize: 15,
               fontWeight: FontWeight.w400,
               color: color,
             ),
